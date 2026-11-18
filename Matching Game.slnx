@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Matching Game.vcxproj" Id="67c20ade-cc3a-4f96-a36e-807f6dc87fdd" />
+</Solution>

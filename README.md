@@ -1,6 +1,6 @@
 # Matching Game
 
-A small Windows matching-game board built with C++ and SFML. The board shuffles two copies each of A, B, C, and D. Left-click a card to reveal it; click it again to hide it.
+A small Windows matching game built with C++ and SFML. The board shuffles two copies each of A, B, C, and D. Left-click two hidden cards to find a pair. Matches stay face up; a mismatch costs one of your three tries and the cards turn back over after a short pause. Find all four pairs to win. If you run out of tries, the game ends. Click Retry to shuffle a fresh board and restore all three tries.
 
 ## Build and run
 

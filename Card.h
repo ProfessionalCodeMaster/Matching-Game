@@ -9,6 +9,7 @@ public:
 
 	void flip() noexcept;
 	bool isFaceUp() const noexcept;
+	bool matches(const Card& other) const noexcept;
 	void setPosition(sf::Vector2f position);
 	bool contains(sf::Vector2f point) const;
 	void draw(sf::RenderTarget& target, const sf::Font& font) const;
@@ -16,5 +17,5 @@ public:
 private:
 	char symbol_;
 	bool faceUp_ = false;
-	sf::RectangleShape shape_{{160.f, 160.f}};
+	sf::ConvexShape shape_;
 };
